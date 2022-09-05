@@ -69,7 +69,7 @@
   .texto{
     max-width: 40ch;
   }
-  .contato{
+  .contato span, a{
     font-size: 1.9rem;
   }
 }
