@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'fira sans', Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  /* color: #141414; */
+}
+.texto{
+  font-size: 1.5rem;
+  line-height: 32px;
+  max-width: 40ch;
+  color: #525252;
+  text-align: left;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.subtitulo{
+  grid-column: 1;
+  font-size: 9rem;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 4ch;
+  line-height: 1.1; 
+}
+
+@media(width <= 900px){
+  .experiencias .subtitulo{
+    transition: .3s;
+    font-size: 3rem;
+    align-self: center;
+    max-width: initial;
+  }
+
+}
